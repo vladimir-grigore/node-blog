@@ -28,7 +28,7 @@ const posts = [
     author: 'Jimmy',
     title: 'I need some coffee',
     body: 'Blog post number 4'
-  },
+  }
 ];
 
 // set the view engine to ejs
@@ -56,4 +56,4 @@ app.get('/post/:id', function(req, res){
 });
 
 app.listen(8080);
-console.log('listening on port 8080')
+console.log('listening on port 8080');
